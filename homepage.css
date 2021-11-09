@@ -1,15 +1,19 @@
+*
 {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     
 }
 
 body {
     background-image: url(./image/spice.png);
     background-size: cover;
-    box-sizing: border-box;
+    
+    background-position: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h1 {
     color: white;
     
@@ -17,6 +21,7 @@ h1 {
 .menu-bar ul {
     display: inline-flex;
     color: white;
+    list-style: none;
 }
 .menu-bar li{
     width: 120px;
@@ -26,4 +31,13 @@ h1 {
 .menu-bar{
     background-color: rgb(0, 100, 0);
     text-align: center;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
 }
