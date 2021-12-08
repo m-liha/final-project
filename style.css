@@ -1,6 +1,5 @@
-:root{
-    --pink:var(--pink)
-}
+
+
 *
 {
     margin: 0px;
@@ -14,7 +13,7 @@
     transition: .2s linear;
             }
             body {
-                  /* background-image: url(./image/spice.png);   */
+                    background-image: url(./image/gold.jpg);   
                 background-size: cover;
                 background-position: center;
             }
@@ -39,9 +38,7 @@
             z-index: 1000;
             box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
                     }
-         header.logo span {
-           color:white
-                    }
+         
         header .navbar a{
            font-size: 2.5rem;
            padding: 0 1.5rem;
@@ -49,9 +46,7 @@
            text-align: center;
            text-decoration: none;
                    }
-        header .navbar a:hover{
-                
-        }
+        
         header .logo{
             font-size: 3rem;
             color: white;
@@ -60,11 +55,7 @@
         header .logo span{
             color: var(--pink);
         }
-        header .navbar a{
-            font-size: 2rem;
-            padding: 0 1.5rem;
-            color: white;
-                   }
+        
         header .navbar a:hover{
                 color: violet;
                     }
@@ -76,28 +67,34 @@
          header .icons a:hover{                        
              color: violet;
             }
-        /* header #toggler{ */
-                /* display: none; */
-            /* } */
-        /* header .fa-bars{ */
-            /* font-size: 1rem; */
-            /* color: white */
-            /* border-radius: .5rem; */
-            /* padding: .5rem 1rem; */
-            ;
-        /* } */
-.main-home {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background:url(./image/spice.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.main-home :content{
-    max-width: 50rem;
-}
-.main-home :content h3{
-    font-size: 6rem;
-    color: darkgreen
-}
+        
+        .homepage-main{
+        width: 100%;
+        display: inline-flex;
+        
+        }
+        .home-text {
+            text-align: center;
+            width: 60%;
+            height: auto;
+            margin-top: 190px;
+            margin-right: 90px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: oblique;
+            padding-left: 60px;
+        
+        }
+    #image1{
+        
+        width: 100%
+        height: auto;
+           
+    }
+
+    .btn{
+     padding: 8px;
+    background-color: palevioletred;
+    width:50%;
+    margin:12px auto; 
+    }
+    
