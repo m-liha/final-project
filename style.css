@@ -120,7 +120,24 @@
      .Login-col{
          width:100%;
      }
-   
+     .row-items{
+         width: 50%;
+         margin-left: 300px;
+         font-style: oblique;
+     }
+   .table-container{
+       margin: 16px 16px;
+   }
+   .text-container{
+       font-size: larger;
+       text-align: center;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-style: oblique;
+       padding-top: 50px;
+   }
+   .mb-3{
+       font-size: medium;
+   }
 
      
    
