@@ -16,6 +16,7 @@
                     background-image: url(./image/gold.jpg);   
                 background-size: cover;
                 background-position: center;
+                padding-top: 70px;
             }
         html{
             font-size: 62.5%;
@@ -86,7 +87,7 @@
         }
     #image1{
         
-        width: 100%
+        width: 100%;
         height: auto;
            
     }
@@ -102,10 +103,41 @@
            width: 100%; 
            margin: 16px 16px;
            box-sizing: border-box;
-           /* padding: 12px 20px; */
+           padding-left: 40px ;
            border-radius: 4px;
                     }
-   
+     .form-group-row{
+         justify-content: center;
+           width: 100%; 
+           /* margin: 16px 16px; */
+           box-sizing: border-box;
+           padding-left: 40px ;
+           border-radius: 4px;
+     }
+     .row {
+         width: 100%;
+     }
+     .Login-col{
+         width:100%;
+     }
+     .row-items{
+         width: 50%;
+         margin-left: 300px;
+         font-style: oblique;
+     }
+   .table-container{
+       margin: 16px 16px;
+   }
+   .text-container{
+       font-size: larger;
+       text-align: center;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-style: oblique;
+       padding-top: 50px;
+   }
+   .mb-3{
+       font-size: medium;
+   }
 
      
    
